@@ -2815,6 +2815,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@streem/api@workspace:packages/api":
+  version: 0.0.0-use.local
+  resolution: "@streem/api@workspace:packages/api"
+  dependencies:
+    expo-yarn-workspaces: ^2.0.3
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: 4.2.4
+  languageName: unknown
+  linkType: soft
+
+"@streem/sdk-core@workspace:packages/sdk-core":
+  version: 0.0.0-use.local
+  resolution: "@streem/sdk-core@workspace:packages/sdk-core"
+  dependencies:
+    expo-yarn-workspaces: ^2.0.3
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: 4.2.4
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -3609,12 +3631,6 @@ __metadata:
   checksum: 985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
   languageName: node
   linkType: hard
-
-"api@workspace:packages/api":
-  version: 0.0.0-use.local
-  resolution: "api@workspace:packages/api"
-  languageName: unknown
-  linkType: soft
 
 "app@workspace:app":
   version: 0.0.0-use.local
@@ -14023,15 +14039,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sdk-core@workspace:packages/sdk-core":
-  version: 0.0.0-use.local
-  resolution: "sdk-core@workspace:packages/sdk-core"
-  dependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
 "select-hose@npm:^2.0.0":
   version: 2.0.0
   resolution: "select-hose@npm:2.0.0"
@@ -15507,6 +15514,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:4.2.4":
+  version: 4.2.4
+  resolution: "typescript@npm:4.2.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 89c397df192f239359ad798b96d8e8d552e12c0c189ac5676cec4c20c410d6eec636b8e59a88f2aef0a56d961a9678d99c400099be9b7cae2f7b062eb4b7b171
+  languageName: node
+  linkType: hard
+
 "typescript@npm:~4.3.5":
   version: 4.3.5
   resolution: "typescript@npm:4.3.5"
@@ -15514,6 +15531,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: bab033b5e2b0790dd35b77fd005df976ef80b8d84fd2c6e63cc31808151875beae9216e5a315fe7068e8499905c3c354248fe83272cdfc13b7705635f0c66c97
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@4.2.4#~builtin<compat/typescript>":
+  version: 4.2.4
+  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=701156"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: eb86e0e8022e5297f7a7b871b6edfbf33b57049416ada8bf97c358760125c7c79f074fbebd1b8e8230f858ae05eb22ad0e805e8f6acd5eae1fa886681624c15e
   languageName: node
   linkType: hard
 

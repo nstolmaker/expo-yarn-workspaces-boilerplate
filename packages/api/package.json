@@ -1,6 +1,19 @@
 {
-    "name": "api",
+    "name": "@streem/api",
     "version": "1.0.0",
-    "main": "__generated__/AppEntry.js",
-    "jest": {}
+    "private": true,
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "yarn run tsc --build"
+    },
+    "jest": {},
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "4.2.4"
+    },
+    "devDependencies": {
+        "expo-yarn-workspaces": "^2.0.3"
+    }
 }

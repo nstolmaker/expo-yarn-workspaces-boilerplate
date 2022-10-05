@@ -1,7 +1,15 @@
 {
     "extends": "expo/tsconfig.base",
     "compilerOptions": {
-      "strict": true
-    }
+        "rootDir": "src",
+        "outDir": "lib",
+      "strict": true,
+      "composite": true,
+      "noEmit": false,
+      "moduleResolution": "node",
+      "sourceMap": true,
+
+    },
+    "include": ["src/**/*"],
   }
   

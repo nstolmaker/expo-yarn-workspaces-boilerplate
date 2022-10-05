@@ -1,6 +1,12 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "strict": true,
+    "composite": true,
+    "noEmit": false,
+    "moduleResolution": "node"
+  },
+  "references": [
+    { "path" : "../packages/sdk-core"}
+  ]
 }

@@ -1,7 +1,20 @@
 {
     "extends": "expo/tsconfig.base",
     "compilerOptions": {
-      "strict": true
-    }
+        "rootDir": "src",
+        "outDir": "lib",
+      "strict": true,
+      "noEmit": false,
+      "composite": true,
+      "moduleResolution": "node",
+      "traceResolution": true,
+      "paths": {
+        "@streem/*": ["../*"]
+      }
+    //   "baseUrl": "../", // This must be specified if "paths" is.
+    },
+    "references": [
+        { "path" : "../api/"}
+    ]
   }
   
