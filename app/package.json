@@ -1,7 +1,8 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "main": "__generated__/AppEntry.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
