@@ -45,8 +45,5 @@
     "typescript": "~4.3.5"
   },
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "packageManager": "yarn@3.2.4"
 }
