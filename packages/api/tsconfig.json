@@ -4,8 +4,8 @@
         "rootDir": "src",
         "outDir": "lib",
       "strict": true,
-      "composite": true,
       "noEmit": false,
+      "composite": true,
       "moduleResolution": "node",
       "sourceMap": true,
 
