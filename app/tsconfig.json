@@ -6,7 +6,9 @@
     "strict": true,
     "composite": true,
     "noEmit": false,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "traceResolution": true,
+
   },
   "include": ["src/**/*"],
   "paths": {
