@@ -1,12 +1,22 @@
 {
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "strict": true,
+    "composite": false,
+    "noEmit": false,
+    "moduleResolution": "node",
+    "traceResolution": true,
+
+  },
+  "include": ["src/**/*", "types.tsx"],
+  "baseUrl": ".", // This must be specified if "paths" is.
+  "paths": {
+    "@streem/*": ["../packages/*"]
+  },
   "references": [
-    {
-      "path": "./packages/api"
-    },
-    {
-      "path": "./packages/sdk-core"
-    }
-  ],
-  "compilerOptions": {},
-  "extends": "expo/tsconfig.base"
+    { "path" : "../packages/sdk-core"},
+    { "path" : "../packages/api"}
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "references": [
+    {
+      "path": "./packages/api"
+    },
+    {
+      "path": "./packages/sdk-core"
+    }
+  ],
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base"
+}

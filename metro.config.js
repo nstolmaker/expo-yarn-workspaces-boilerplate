@@ -15,8 +15,8 @@ const path = require("path");
 module.exports.watchFolders = [
     // path.resolve(__dirname, ".."),
 //     // path.resolve(__dirname, "..", "node_modules"),
-    path.resolve(__dirname, "../packages", "api"),
-    path.resolve(__dirname, "../packages", "sdk-core"),
+    path.resolve(__dirname, "./packages", "api"),
+    path.resolve(__dirname, "./packages", "sdk-core"),
   ];
 
   module.exports.resolver = { 
@@ -27,7 +27,7 @@ module.exports.watchFolders = [
         "react-native": path.resolve('./node_modules/react-native')
     },
     extraNodeModules: new Proxy({}, {
-      get: (target, name) => path.join(process.cwd(), `../node_modules/${name}`),
+      get: (target, name) => path.join(process.cwd(), `./node_modules/${name}`),
     }),
 }
 
