@@ -11,10 +11,10 @@
       "moduleResolution": "node",
       "sourceMap": true,
       "traceResolution": true,
-      "paths": {
-        "@streem/*": ["../*"]
-      },
-      "baseUrl": ".", // This must be specified if "paths" is.
+      // "paths": {
+      //   "@streem/*": ["../*"]
+      // },
+      // "baseUrl": ".", // This must be specified if "paths" is.
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"],

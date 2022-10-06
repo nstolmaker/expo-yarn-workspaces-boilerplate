@@ -9,7 +9,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
   return (
     <View style={styles.container}>
       <TextThemed style={styles.title}>Tab One</TextThemed>
-      <TextThemed style={styles.title}>STUFF NOAH</TextThemed>
+      <TextThemed style={styles.title}>STUFF NOAH1</TextThemed>
 
       <SDKPage />
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
