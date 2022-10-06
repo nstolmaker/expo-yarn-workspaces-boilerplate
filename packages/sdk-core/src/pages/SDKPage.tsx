@@ -3,8 +3,8 @@ import {APIComponent} from '@streem/api'
 
 const SDKPage = () => {
     return (
-        <View style={{borderColor: 'orange', borderWidth: 16, height: 100, width: 200}}>
-            {/* <Text>NOAH API COMPONENT GOES HERE</Text> */}
+        <View style={{borderColor: 'orange', borderWidth: 16, height: 210, width: 200}}>
+            <Text>(SDK Page); APIComponent ⬇️</Text>
             <APIComponent />
         </View>);
 }
