@@ -1,6 +1,11 @@
 import { View } from 'react-native'
 import {APIComponent} from '@streem/api'
 
-const SDKPage = () => <View style={{borderColor: 'pink', borderWidth: 2}}><APIComponent /></View>
+const SDKPage = () => {
+    return (
+        <View style={{borderColor: 'pink', borderWidth: 2, height: 100, width: 200}}>
+            <APIComponent />
+        </View>);
+}
 
 export default SDKPage;

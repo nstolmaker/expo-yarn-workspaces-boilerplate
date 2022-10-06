@@ -1,14 +1,16 @@
 {
-    "exclude": [
-      "packages/**/tests/**",
-      "packages/**/dist/**"
-   ],
-    "references": [
-     {
-        "path": "./packages/api"
-     },
-     {
-        "path": "./packages/sdk-core"
-     }
-   ]
-   }
+  "exclude": [
+    "packages/**/tests/**",
+    "packages/**/dist/**"
+  ],
+  "references": [
+    {
+      "path": "./packages/api"
+    },
+    {
+      "path": "./packages/sdk-core"
+    }
+  ],
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base"
+}

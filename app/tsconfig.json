@@ -4,17 +4,19 @@
     "rootDir": "src",
     "outDir": "lib",
     "strict": true,
-    "composite": true,
+    "composite": false,
     "noEmit": false,
     "moduleResolution": "node",
     "traceResolution": true,
 
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "types.tsx"],
+  "baseUrl": ".", // This must be specified if "paths" is.
   "paths": {
     "@streem/*": ["../packages/*"]
   },
   "references": [
-    { "path" : "../packages/sdk-core"}
+    { "path" : "../packages/sdk-core"},
+    { "path" : "../packages/api"}
   ]
 }

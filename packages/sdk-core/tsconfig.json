@@ -3,7 +3,7 @@
     "compilerOptions": {
       "rootDir": "src",
       "outDir": "lib",
-      "declaration": true,
+    //   "declaration": true,
       "emitDeclarationOnly": true,
       "composite": true,
       "strict": true,
@@ -13,8 +13,8 @@
       "traceResolution": true,
       "paths": {
         "@streem/*": ["../*"]
-      }
-    //   "baseUrl": "../", // This must be specified if "paths" is.
+      },
+      "baseUrl": ".", // This must be specified if "paths" is.
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"],
