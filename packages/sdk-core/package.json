@@ -7,9 +7,12 @@
         "build": "yarn run tsc --build"
     },
     "jest": {},
-    "dependencies": {
+    "peerDependencies": {
+        "@streem/api": "^0.0.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
         "typescript": "4.2.4"
     }
 }

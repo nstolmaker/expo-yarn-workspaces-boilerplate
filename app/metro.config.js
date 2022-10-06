@@ -5,7 +5,7 @@ const config = getDefaultConfig(__dirname);
 module.exports = config;
 
 // const { createMetroConfiguration } = require("expo-yarn-workspaces");
-// const path = require("path");
+const path = require("path");
 
 // module.exports = createMetroConfiguration(__dirname);
 // module.exports.watchFolders = [
@@ -15,11 +15,13 @@ module.exports = config;
 //     // path.resolve(__dirname, "../packages", "sdk-core"),
 //   ];
 
-//   module.exports.resolver = { 
-//     alias: {
-//         react: path.resolve('./node_modules/react')
-//     }
-// }
+  module.exports.resolver = { 
+    alias: {
+        "react": path.resolve('./node_modules/react'),
+        "react-dom": path.resolve('./node_modules/react-dom'),
+        "react-native": path.resolve('./node_modules/react-native')
+    }
+}
 
 // // extraNodeModules: {
 // //     "react-native-reanimated":
