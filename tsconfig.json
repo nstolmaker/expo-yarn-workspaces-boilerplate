@@ -13,10 +13,10 @@
   "include": ["src/**/*", "types.tsx"],
   "baseUrl": ".", // This must be specified if "paths" is.
   "paths": {
-    "@streem/*": ["../packages/*"]
+    "@streem/*": ["./packages/*"]
   },
   "references": [
-    { "path" : "../packages/sdk-core"},
-    { "path" : "../packages/api"}
+    { "path" : "./packages/sdk-core"},
+    { "path" : "./packages/api"}
   ]
 }

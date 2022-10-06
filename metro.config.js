@@ -20,7 +20,7 @@ module.exports.watchFolders = [
   ];
 
   module.exports.resolver = { 
-    blockList: exclusionList([/sdk-core[\/\\]node_modules[/\\]react-native-reanimated[/\\].*/, /api[\/\\]node_modules[/\\]react-native-reanimated[/\\].*/]),
+    // blockList: exclusionList([/sdk-core[\/\\]node_modules[/\\]react-native-reanimated[/\\].*/, /api[\/\\]node_modules[/\\]react-native-reanimated[/\\].*/]),
     alias: {
         "react": path.resolve('./node_modules/react'),
         "react-dom": path.resolve('./node_modules/react-dom'),
