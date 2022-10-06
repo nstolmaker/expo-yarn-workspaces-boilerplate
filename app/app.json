@@ -28,9 +28,7 @@
       }
     },
     "web": {
-      "favicon": "./src/assets/images/favicon.png",
-      "bundler": "metro"
-
+      "favicon": "./src/assets/images/favicon.png"
     }
   }
 }

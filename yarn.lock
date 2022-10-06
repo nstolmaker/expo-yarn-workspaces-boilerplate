@@ -2820,8 +2820,8 @@ __metadata:
   resolution: "@streem/api@workspace:packages/api"
   dependencies:
     expo-yarn-workspaces: ^2.0.3
-    react: ^18.0.0
-    react-dom: ^18.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
     typescript: 4.2.4
   languageName: unknown
   linkType: soft
@@ -2831,8 +2831,8 @@ __metadata:
   resolution: "@streem/sdk-core@workspace:packages/sdk-core"
   dependencies:
     expo-yarn-workspaces: ^2.0.3
-    react: ^18.0.0
-    react-dom: ^18.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
     typescript: 4.2.4
   languageName: unknown
   linkType: soft
@@ -3654,13 +3654,13 @@ __metadata:
     expo-web-browser: ~11.0.0
     jest: ^26.6.3
     jest-expo: ~44.0.1
-    react: 18.0.0
-    react-dom: 18.0.0
+    react: 18.2.0
+    react-dom: 18.2.0
     react-native: 0.69.6
     react-native-safe-area-context: 4.3.1
     react-native-screens: ~3.15.0
     react-native-web: ~0.18.7
-    react-test-renderer: 18.0.0
+    react-test-renderer: 18.2.0
     typescript: ~4.3.5
   languageName: unknown
   linkType: soft
@@ -13137,19 +13137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react-dom@npm:18.0.0"
-  dependencies:
-    loose-envify: ^1.1.0
-    scheduler: ^0.21.0
-  peerDependencies:
-    react: ^18.0.0
-  checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^18.0.0":
+"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -13177,7 +13165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.0.0":
+"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
@@ -13310,7 +13298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-shallow-renderer@npm:16.15.0, react-shallow-renderer@npm:^16.13.1":
+"react-shallow-renderer@npm:16.15.0, react-shallow-renderer@npm:^16.13.1, react-shallow-renderer@npm:^16.15.0":
   version: 16.15.0
   resolution: "react-shallow-renderer@npm:16.15.0"
   dependencies:
@@ -13322,16 +13310,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react-test-renderer@npm:18.0.0"
+"react-test-renderer@npm:18.2.0":
+  version: 18.2.0
+  resolution: "react-test-renderer@npm:18.2.0"
   dependencies:
-    react-is: ^18.0.0
-    react-shallow-renderer: ^16.13.1
-    scheduler: ^0.21.0
+    react-is: ^18.2.0
+    react-shallow-renderer: ^16.15.0
+    scheduler: ^0.23.0
   peerDependencies:
-    react: ^18.0.0
-  checksum: c0e5250fa2e4c3650e247b986c262631bec68f18c06817269ab7a4e2cffa5a152bb58ce0fe4182ffa8c333e6c2a8d763ac92e0928e5f6914a7aa188c2de1943a
+    react: ^18.2.0
+  checksum: 6b6980ced93fa2b72662d5e4ab3b4896833586940047ce52ca9aca801e5432adf05fcbe28289b0af3ce6a2a7c590974e25dcc8aa43d0de658bfe8bbcd686f958
   languageName: node
   linkType: hard
 
@@ -13349,16 +13337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
-  languageName: node
-  linkType: hard
-
-"react@npm:^18.0.0":
+"react@npm:18.2.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:

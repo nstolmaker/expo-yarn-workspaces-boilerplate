@@ -8,10 +8,14 @@
       "composite": true,
       "moduleResolution": "node",
       "sourceMap": true,
+      "traceResolution": true,
+
     //   "declaration": true,
 
 
     },
     "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+
   }
   
