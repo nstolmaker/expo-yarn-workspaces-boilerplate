@@ -1,7 +1,12 @@
 {
   "packageManager": "yarn@3.2.4",
-  "workspaces": [
-    "packages/*",
-    "app"
-  ]
+  "workspaces": {
+    "nohoist": [
+      "@expo/vector-icons"
+    ],
+    "packages": [
+      "packages/*",
+      "app"
+    ]
+  }
 }
